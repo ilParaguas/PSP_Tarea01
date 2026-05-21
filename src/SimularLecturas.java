@@ -1,8 +1,5 @@
 
-import java.time.LocalDate;
-import java.time.LocalDateTime;
-import java.time.LocalTime;
-import java.time.Period;
+import java.time.*;
 import java.time.format.DateTimeFormatter;
 import java.util.Random;
 
@@ -34,9 +31,9 @@ public class SimularLecturas {
     }
 
     public void main(String[] args) {
-        // Muestra 50 lecturas por pantalla en forato CSV
         for (int i = 0; i < 50; i++) {
             System.out.println(simular());
         }
+        // Mostrar por pantalla con stdout?
     }
 }
