@@ -1,0 +1,3 @@
+Para la primera parte de la práctica, la clase SimularLecturas genera 50 lecturas aleatorias, normalizando el valor de esas lecturas a dos decimales como máximo. Estas lecturas se vuelcan en el archivo entrada.csv con el comando "java SimularLecturas.java > entrada.csv". 
+
+Via comandos también, trabajando con pipeline |, esas lecturas pasan como valores de entrada a la clase LimpiarYOrdenar lecturas, que verifica que sean lecturas correctas, y luego las ordena ascendentemente según su Id y el Timestamp de cada una, mostrando el resultado por pantalla.
